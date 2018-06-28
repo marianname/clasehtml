@@ -36,6 +36,10 @@ body{
 #imagen-principal{
   height: calc(100vh - 64px);
   background-color: black;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #imagen-principal img{
@@ -43,4 +47,10 @@ body{
   height: 100%;
   object-fit: cover;
   object-position: bottom;
+  position: absolute;
+}
+
+#cuadro{
+  position: absolute;
+
 }
