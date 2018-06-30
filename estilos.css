@@ -1,5 +1,5 @@
 body{
-  background: gray;
+  background: white;
   margin: 0;
   font-family: sans-serif;
 }
@@ -77,4 +77,68 @@ body{
   justify-content: center;
   align-items: center;
 
+}
+
+#img-productos{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#centrado{
+  height: 604px;
+}
+
+#img-productos .img-comida1{
+  width: 300px;
+  height: 160px;
+}
+
+#img-productos .img-comida2{
+  width: 300px;
+  height: 160px;
+}
+
+#img-productos .img-comida3{
+  width: 300px;
+  height: 160px;
+}
+
+#img-productos img:hover{
+  opacity: 0.5;
+}
+
+#centrado-servicios{
+  height: 1920px;
+}
+
+#span-servicios1{
+  width: 50%;
+  float: left;
+  font-size: 20px;
+}
+
+#span-servicios1 span{
+  width: 100%;
+  float: left;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#span-servicios2{
+  width: 50%;
+  float: left;
+  font-size: 20px;
+}
+
+#span-servicios2 span{
+  width: 100%;
+  float: left;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
